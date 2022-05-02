@@ -1,0 +1,268 @@
+
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'inter', sans-serif;
+    position: relative; 
+    scroll-behavior: smooth;
+}
+
+/* Nav Bar */
+.navbar nav {
+    display: flex;
+    align-items: center;
+    height: 72px;
+}
+/*links*/
+.nav ul { 
+    display: flex;
+    justify-content:center;
+}
+.nav li {
+    display: inline;
+}
+.nav li a{
+   padding: left 50px;
+}
+
+
+/* header */
+.header-container{
+    background: rgba(35, 39, 102, 0.87) url('./../assets/images/bg-shape.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    width: 1352px;
+    height: 936px;
+    display: flex;
+}
+.wrapper{
+    width: 627px;
+    height: 306px;
+    margin-left: 233px;
+    color: #FFFFFF;
+}
+.header h1{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    margin-bottom: 40px;
+}
+.header p{
+    font-size: 20px;
+    line-height: 24px;
+    text-align: left;
+}
+/*button*/
+.BUTTON{
+    margin-right: 212px;
+    top: 331px;
+    padding-bottom: 260px;
+}
+.col-btn{
+    width: 153px;
+    height: 24px;
+    margin-top: 50px;
+    padding-top: 120px;
+    float: right;
+}
+
+/*Services Section*/
+.section1{
+    background: rgba(29, 31, 75, 0.57);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1352px;
+    height: 981px;
+}
+.services{
+    color: white;
+    padding-top: 150px;
+    margin-left: 70px;
+}
+.col h1{
+    padding-bottom: 110px;
+}
+.head{
+    margin-left: 200px;
+    display: flex;
+    padding-top: 130px;
+}
+.h2{
+   color: #000000;
+   font-size: 32px;
+}
+.text{
+    display: flex;
+    line-height: 29px;
+}
+.txt{
+    padding-top: 70px;
+    font-size: 24px;
+    margin-left: 78px;
+}
+
+/*About us section*/
+.section2{
+    width: 1352px;
+    height: 974px;
+    background: #FFFCFC;
+    background-image: url('./../assets/images/bg-shape2.png');
+    background-size: cover;
+    background-position: center;
+}
+.about{
+    margin-left: 189px;
+    font-size: 32px;
+    color: #000000;
+}
+.col h6{
+    color: #000000;
+    font-size: 32px;
+    padding-top: 258px;
+    padding-bottom: 116px;
+    margin-left: 410px;
+}
+.p3{
+     font-size: 32px;
+}
+
+/*clients and Partners*/
+.container-1{
+    width: 1352px;
+    height: 974px;
+    background-color: #1D1F4B;
+    background-size: cover;
+}
+.Clients{
+    color: #FFFFFF;
+    padding-top: 244px;
+    margin-left: 387px;
+}
+.col h7{
+    font-size: 48px;
+}
+/*image*/
+.Image{
+    display: flex;
+    padding-top: 204px;
+}
+.col-img{
+ padding-left: 50px;
+}
+
+/*Techonologies*/
+.container-2{
+    width: 1352px;
+    height: 974px;
+    background-color: white;
+}
+.techno{
+    color: #000000;
+    margin-left: 92px;
+    padding-top: 144px;
+}
+.hd-8{
+    font-size: 32px;
+}
+.hd-9{
+   padding-top: 60px;
+   font-size: 24px;
+    
+}
+/*Techonologies img*/
+.img{
+    display: flex;
+    margin-left: 100px;
+}
+.html{
+    padding-top: 40px;
+}
+.java{
+    padding-top: 38px;
+}
+.php{
+    padding-top: 68px;
+}
+.parag{
+    display: flex;
+    padding-top: 90px;
+    margin-left: 160px;
+}
+/*Contact us*/
+.container-3{
+    width: 1352px;
+    height: 974px;
+    background-image: url('./../assets/images/bg-white-blue.png');
+}
+.connect{
+    padding-top: 110px;
+    margin-left: 155px;
+    font-size: 48px;
+}
+.look{
+    color: white;
+    top: 80px;
+    float: right;
+}
+.looking{
+    font-size: 64px;
+    padding-right: 90px;
+}
+.Info{
+    color: #000000;    
+}
+.callus{
+    font-size: 32px;
+    padding-left: 255px;
+    padding-top: 110px;
+}
+.no{
+    font-size: 32px;
+    padding-top: 10px;
+    padding-left: 188px;
+}
+.location{
+    padding-top: 60px;
+    font-size: 32px;
+    padding-left: 240px;
+}
+.address{
+    font-size: 24px;
+    padding-top: 10px;
+    padding-left: 115px;
+}
+.business{
+   padding-top: 40px;
+   font-size: 32px;
+   padding-left: 195px;
+}
+.time{
+    font-size: 24px;
+    padding-left: 195px;
+}
+.day{
+    font-size: 24px;
+    padding-left: 210px; 
+}
+.account{
+    margin-left: 95px;
+    padding-top: 90px;
+    display: flex;  
+}
+/*Register section*/
+.Register-custom{
+    float:right;
+}
+
+.fname-custom{
+    padding-left: 250px;
+}
+.form-control{
+   width: 50%;
+}
+
+/*Login Section*/
+

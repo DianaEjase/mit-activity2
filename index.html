@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    
+    <title>Homepage</title>
+    <link rel="stylesheet" href="./../assets/css/css.css" />
+  </head>
+  <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+    <!--Nav Bar-->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand">
+          <img src="./../assets/images/logo.png" alt="Logo" style="width: 40px" />
+        </a>
+
+        <!--Links-->
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="./../pages/index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./../pages/index.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./../pages/index.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./../pages/index.html"
+              >Clients and Partners</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./../pages/index.html">Technologies</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="./../pages/index.html">Contact Us</a>
+          </li>
+          <!-- <div class="Log-In-custom"> -->
+            <button
+              type="button"
+              class="btn btn-dark"
+              data-bs-toggle="modal"
+              data-bs-target="#loginModal"
+            >
+              Login
+            </button>
+          <!-- </div> -->
+
+        </ul>
+        
+      </div>
+
+           
+    </nav>
+    <!--header-->
+    <div class="header-container">
+      <div class="wrapper">
+        <h1>
+          This is the <br />beginning of<br />
+          anything you want.
+        </h1>
+        <p>
+          It is like a second brain that helps of millions customer from small
+          business to big online retailers-find their audience, engage their
+          customers and build their brand.
+        </p>
+      </div>
+      <div class="Register-custom">
+        <button
+          type="button"
+          class="btn btn-dark"
+          data-bs-toggle="modal"
+          data-bs-target="#registerModal"
+        >
+          Register for Free
+        </button>
+        <div class="modal" id="registerModal">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h19 class>Register</h19>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="fname-custom">
+                    <label for="fname">First name:</label>
+                      <input
+                        type="fname"
+                        class="form-control"
+                        id="fname"
+                        placeholder="First name"
+                        name="fname"
+                      />
+                  </div>
+                  <div class="fname-custom">
+                    <label for="lname">Last name:</label>
+                      <input
+                        type="lname"
+                        class="form-control"
+                        id="lname"
+                        placeholder="Last name"
+                        name="lname"
+                      />
+                  </div>
+                  <div class="fname-custom">
+                    <label for="email">Email:</label>
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="email"
+                        placeholder="Email"
+                        name="email"
+                      />
+                  </div>
+                  <div class="fname-custom">
+                    <label for="pswd">Password:</label>
+                      <input
+                        type="pswd"
+                        class="form-control"
+                        id="pswd"
+                        placeholder="Password"
+                        name="pswd"
+                      />
+                  </div>
+                  <div class="fname-custom pt-3">
+                    <input type="submit" class="btn btn-dark"></button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal" id="loginModal">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class>Log In</h1>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="log-custom">
+                  <label for="email">Email:</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    placeholder="Email"
+                    name="email"
+                  />
+                </div>
+                <div class="log-custom">
+                  <label for="pwd">Password:</label>
+                  <input
+                    type="pwd"
+                    class="form-control"
+                    id="pwd"
+                    placeholder="Password"
+                    name="pwd"
+                  />
+                </div>
+                <div class="log-custom pt-3">
+                  <input type="submit" class="btn btn-dark"></button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+        <!--Services Section-->
+        <div id="Services" class="section1">
+          <div class="row services">
+            <div class="col h1">
+              <h1>Our services</h1>
+              <h2>Here are the services we offer:</h2>
+            </div>
+          </div>
+          <div class="row head">
+            <div class="col h2">
+              <h3>Website Design</h3>
+            </div>
+            <div class="col h2">
+              <h4>Website Development</h4>
+            </div>
+            <div class="col h2">
+              <h5>Copywriting</h5>
+            </div>
+          </div>
+          <div class="row text">
+            <div class="col txt">
+              <p>
+                Let our expert designers put<br />
+                together a stunning website <br />design for you. We can even<br />
+                create a logo for you and come up<br />
+                with brands colors.
+              </p>
+            </div>
+            <div class="col txt">
+              <p>
+                Let our expert website<br />
+                developers help. We will get your<br />
+                website up and running in on<br />
+                time.
+              </p>
+            </div>
+            <div class="col txt">
+              <p>
+                Our talent copywriters can put<br />
+                together landing page copy,<br />
+                product description or anything<br />
+                else you need.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!--About Us-->
+        <div id="About-Us" class="section2">
+          <div class="row about">
+            <div class="col head-6">
+              <h6>About Us</h6>
+              <p3
+                >We create identities and coresponding system. Provide creative
+                and <br />superb thinking design.
+              </p3>
+            </div>
+          </div>
+        </div>
+
+        <!--Clients and Partners-->
+        <div id="Clients-and-Partners" class="container-1">
+          <div class="Clients">
+            <div class="col head-7">
+              <h7>Our Clients and Partners:</h7>
+            </div>
+          </div>
+          <div class="Image">
+            <div class="col-img">
+              <img class="webm" src="./../assets/images/webm.png" />
+            </div>
+            <div class="col-img">
+              <img class="microsoft" src="./../assets/images/microsoft.png" />
+            </div>
+            <div class="col-img">
+              <img class="cloud" src="./../assets/images/cloud.png" />
+            </div>
+          </div>
+        </div>
+        <!---Technologies-->
+        <div id="Technologies" class="container-2">
+          <div class="techno">
+            <div class="col hd-8">
+              <h8>Technologies</h8>
+            </div>
+            <div class="col hd-9">
+              <h9>We use for software language:</h9>
+            </div>
+          </div>
+          <div class="row img">
+            <div class="col html">
+              <img class="html" src="./../assets/images/html.png" />
+            </div>
+            <div class="col java">
+              <img class="java" src="./../assets/images/java.png" />
+            </div>
+            <div class="col php">
+              <img class="php" src="./../assets/images/php.png" />
+            </div>
+          </div>
+          <div class="row parag">
+            <div class="col txt-1">
+              <p4>
+                a markup language for the<br />web that defines the <br />
+                structure of web pages.</p4
+              >
+            </div>
+            <div class="col txt-1">
+              <p5
+                >a high-level, class-based,<br />
+                object-oriented programming <br />
+                language that is designed to <br />
+                have as few implementation <br />dependencies as possible.</p5
+              >
+            </div>
+            <div class="col txt-1">
+              <p6
+                >widely-used open source <br />
+                general-purpose scripting <br />
+                language that is especially <br />
+                suited for web development <br />
+                and can be embedded into <br />
+                HTML.</p6
+              >
+            </div>
+          </div>
+        </div>
+
+        <!--Contact Us-->
+        <div id="Contact-Us" class="container-3">
+          <div class="contact us">
+            <div class="col connect">
+              <h10>Connect with Us</h10>
+            </div>
+          </div>
+          <div class="look">
+            <div class="col looking">
+              <p>
+                Hey! We are<br />
+                looking forward<br />
+                to start a<br />
+                project with<br />
+                you.
+              </p>
+            </div>
+          </div>
+          <div class="Info">
+            <div class="col callus">
+              <h11>Call Us</h11>
+            </div>
+            <div class="col no">
+              <h12>0949-830-8397</h12>
+            </div>
+            <div class="col location">
+              <h13>Location</h13>
+            </div>
+            <div class="col address">
+              <h14>24 Don Antonio Heights Quezon City</h14>
+            </div>
+            <div class="col business">
+              <h15>Business Hour</h15>
+            </div>
+            <div class="col time">
+              <h16>mon-fri.... 9am-6pm</h16>
+            </div>
+            <div class="col day">
+              <h17>Sat-sun Closed</h17>
+            </div>
+          </div>
+          <div class="col account">
+            <img class="twitter" src="./../assets/images/twitter.png" />
+            <p>Sui Ejase</p>
+            <img class="insta" src="./../assets/images/insta.png" />
+            <p1>Annlggyu</p1>
+            <img class="fb" src="./../assets/images/fb.png" />
+            <p2>Sui Ejase</p2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</html>
