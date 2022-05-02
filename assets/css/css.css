@@ -29,7 +29,8 @@ body {
 
 /* header */
 .header-container{
-    background: rgba(35, 39, 102, 0.87) url('./../assets/images/bg-shape.svg');
+    background: url('../images/bg-shape.svg');
+    background-color: rgba(35, 39, 102, 0.87);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -109,7 +110,7 @@ body {
     width: 1352px;
     height: 974px;
     background: #FFFCFC;
-    background-image: url('./../assets/images/bg-shape2.png');
+    background-image: url('../images/bg-shape2.png');
     background-size: cover;
     background-position: center;
 }
